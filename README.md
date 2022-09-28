@@ -3,7 +3,7 @@
 1. Sejam bem vindos ao Projeto de Crud da Danniele(aka Siza/Sizamux)
 
 2. Este projeto utiliza os conceitos de:
-- Linguagem de programação: JAVA; IDE utilizada: Elclipse para web; Tipo de Projeto: Dynamic WEB
+- Linguagem de programação: JAVA; IDE utilizada: Eclipse para web; Tipo de Projeto: Dynamic WEB
 - MVC(Model[Java],Views[em Jsp],Controllers[Servlet JSTL])
 - CRUD(com Existencia de uma Interface onde Crud de tabelas as herdam), em: [dynWebCrud/src/main/java/crud](dynWebCrud/src/main/java/crud)
 - DAO(estabelecendo Conexão com o BD)), em: [dynWebCrud/src/main/java/db/DAO.java](dynWebCrud/src/main/java/db/DAO.java)
