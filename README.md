@@ -19,3 +19,16 @@
 -  [Jakarta jstl-2.0.0](dynWebCrud/src/main/webapp/WEB-INF/lib/jakarta.servlet.jsp.jstl-2.0.0.jar)
 -  [jakarta.servlet.jsp.jstl-api-2.0.0.ja](dynWebCrud/src/main/webapp/WEB-INF/lib/jakarta.servlet.jsp.jstl-api-2.0.0.jar)
 -  [mysql-connector-java-8.0.30.jar](dynWebCrud/src/main/webapp/WEB-INF/lib/mysql-connector-java-8.0.30.jar)
+
+6.SQL com nome do BD utilizado e Create Table com dados e nome da tabela utilizado no codigo
+
+```
+USE DannyDb;
+CREATE TABLE clientes(
+	id int not null primary key auto_increment,
+    nome varchar(40),
+    cpf varchar(11),
+    data_de_nascimento DATE,
+    data_de_registro DATE
+);	
+```
