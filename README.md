@@ -26,9 +26,9 @@
 USE DannyDb;
 CREATE TABLE clientes(
 	id int not null primary key auto_increment,
-    nome varchar(40),
-    cpf varchar(11),
-    data_de_nascimento DATE,
-    data_de_registro DATE
+    	nome varchar(40),
+    	cpf varchar(11),
+    	data_de_nascimento DATE,
+    	data_de_registro DATE
 );	
 ```
